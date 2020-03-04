@@ -2,7 +2,7 @@ package week1;
 
 /*
  BOJ - 3109
- used DFS
+ [DFS]
  */
 
 import java.io.BufferedReader;
