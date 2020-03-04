@@ -2,7 +2,6 @@
  * Google Women's I/O #1 problem.
  */
 
-
 package week1;
 
 import java.io.BufferedReader;
