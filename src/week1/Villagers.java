@@ -1,5 +1,10 @@
 package week1;
 
+/*
+BOJ #2644
+[BFS]
+*/
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
