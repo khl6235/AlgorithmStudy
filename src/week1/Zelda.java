@@ -45,7 +45,6 @@ public class Zelda {
 
 	}
 	
-//	static int Moving(int cave[][], boolean visited[][], int n) {
 	static int Moving(Node node, int cave[][], int dist[][], int n) {
 		
 		PriorityQueue<Node> pq = new PriorityQueue<>();
