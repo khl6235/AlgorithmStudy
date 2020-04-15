@@ -1,5 +1,9 @@
 package week2;
 
+/*
+BOJ #9655
+*/
+
 import java.util.Scanner;
 
 public class RockGame {
