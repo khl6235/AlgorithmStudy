@@ -41,10 +41,8 @@ public class Alignment {
         		newarr.add(array[array.length-1]);
         	}
         	List<Integer> newarr = new ArrayList<>(list.subList(first, last));
-//        	array.subList(commands[i][0]-1, commands[i][1])
-//        	System.out.println(newarr);
+
         	Collections.sort(newarr);
-//        	System.out.println(newarr);
         	answer[i] = newarr.get(commands[i][2]-1);
         }
         
