@@ -10,7 +10,7 @@ def solution(N, road, K):
         town[v1].append((v2, w))
         town[v2].append((v1, w))
 
-    for k, v in dijkstra(town, 1).items():
+    for _, v in dijkstra(town, 1).items():
         answer += 1 if v <= K else 0
     
     return answer
