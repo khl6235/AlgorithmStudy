@@ -12,17 +12,16 @@ def solution(str1, str2):
         if s:
             set2.append(s)
     
-    if set1 and set2:
-        if len(set1) >= len(set2):
-            its = [set1.remove(x) for x in set2 if x in set1]
-        else:
-            its = [set2.remove(x) for x in set1 if x in set2]
-        tmp = set1+set2
-        uni = len(tmp)
-        if uni == 0:
-            answer = 1
-        else:
-            answer = len(its)/uni
+    if len(set1) >= len(set2):
+        its = [set1.remove(x) for x in set2 if x in set1]
+    else:
+        its = [set2.remove(x) for x in set1 if x in set2]
+    tmp = set1+set2
+    uni = len(tmp)
+    if uni == 0:
+        answer = 1
+    else:
+        answer = len(its)/uni
 
     return int(answer*65536)
 
