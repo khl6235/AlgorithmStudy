@@ -2,7 +2,7 @@
  * Google Women's I/O #1 problem.
  */
 
-package week1;
+package BOJ;
 
 import java.io.BufferedReader;
 import java.io.IOException;

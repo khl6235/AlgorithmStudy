@@ -1,4 +1,4 @@
-package week2;
+package BOJ;
 
 /*
 BOJ #9655

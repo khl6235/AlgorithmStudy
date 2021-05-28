@@ -1,4 +1,4 @@
-package week1;
+package BOJ;
 
 /*
 BOJ #4485
